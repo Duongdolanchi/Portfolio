@@ -1,0 +1,164 @@
+:root {
+  --pale-light-color: #92979a;
+  --light-dark-color: #4d4d4d;
+}
+
+.text-pale-light-color {
+  color: var(--pale-light-color);
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+p {
+  margin: 0;
+}
+
+.row {
+  padding: 4rem 0;
+}
+
+.col-content {
+  max-width: 80%;
+}
+
+.col-md-4 {
+  border-right: 1px solid white;
+}
+
+.col-md-4:last-child {
+  border-right: none;
+}
+
+hr {
+  margin: 1rem;
+  color: var(--pale-light-color);
+  opacity: 0.75;
+}
+
+.btn {
+  border-radius: 50px;
+  border: none;
+  width: 150px;
+  text-transform: uppercase;
+}
+
+.btn-dark {
+  background-color: black;
+}
+
+.btn-light {
+  background: linear-gradient(45deg, #ff7f50, #ae5ff7);
+}
+
+.navbar {
+  min-height: 70px;
+}
+
+.logo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.nav-item {
+  min-width: 90px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: red;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 1px;
+}
+
+#contact .col-md-6:first-child {
+  border-right: 1px solid var(--pale-light-color);
+}
+
+.contact-icon {
+  background-color: #f9f9f9;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.contact-content {
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.about-greeting {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.about-image {
+  width: 100%;
+}
+
+.about-title {
+  font-size: x-large;
+}
+
+.about-title,
+.service-topic {
+  font-weight: bold;
+}
+
+.service-title,
+.project-title {
+  font-size: 3rem;
+}
+
+.footer-content-left,
+.btn {
+  font-weight: 500;
+}
+
+.carousel img {
+  max-height: 70vh;
+}
+
+.footer-content-left {
+  font-size: 5rem;
+}
+
+.footer-content-left,
+.footer-content-right {
+  padding: 0 4rem;
+}
+
+.footer-content-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.bouncing-image {
+  animation: bounce 2s infinite;
+}
